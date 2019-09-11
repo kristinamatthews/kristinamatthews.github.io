@@ -1,0 +1,59 @@
+body {
+    background: url(images/country.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    background: #77ACF2;
+    color: darkgreen;
+    padding:5px 10px 5px 10px;
+    text-align: center
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid black;
+}
+h3 {
+    background: #A65D03;
+    text-align: center;
+    margin:10px auto;
+    width:70%;
+    padding: 5px 10px 5px 10px;
+}
+.one{
+    background:#A65D03;
+    margin:10px auto;
+    width:70%;
+    padding: 5px 10px 5px 10px;
+}
+.two{
+    text-align: center;
+    margin: auto;
+}
+.center2 {
+    text-align: center;
+    list-style-position: inside;
+    margin-left: auto;
+    margin-right: 40px;
+}
+nav {
+    text-align: center;
+}
+nav a{
+    background: lightcoral;
+    color: black;
+    text-decoration: none;
+    padding:5px;
+    text-align: center;
+    border-radius: 20%;
+}
+nav a:hover {
+    background: mediumblue;
+}
+footer {
+    background:#77ACF2;
+    margin:10px auto;
+    width:40%;
+    padding: 5px 20px 5px 20px;
+}

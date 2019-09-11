@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    /* margin;0 padding:0 means no padding or margin anywhere */
+}
+header, section, footer {
+    margin:10px auto;
+    width:70%;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+}
+body {
+    background: url(icecream.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background: rgba(218,112,214,0.8);
+    padding:5px 10px 5px 10px;
+}
+section {
+    background: lightsteelblue;
+}
+footer {
+    background: tan;
+}
+nav li {
+    list-style-type: none;
+    float: left;
+}
+nav a{
+    background: hotpink;
+    color: white;
+    text-decoration: none;
+    padding:5px;
+}
+nav a:hover {
+    background: mediumblue;
+}
+
+
+
+/* adobe color, w3schools for colors. adobe color had different
+color palettes and color schemes for websites */

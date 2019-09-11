@@ -1,0 +1,86 @@
+body {
+    background: url(images/pier.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 {
+    background:#3F3D73;
+    color:#F29829;
+    padding:5px 10px 5px 10px;
+    text-align: center
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid midnightblue ;
+}
+h3 {
+    background: #BF4F45;
+    text-align: center;
+    margin:10px auto;
+    width:70%;
+    padding: 5px 10px 5px 10px;
+    color: burlywood;
+}
+h4 {
+    color:black;
+}
+.one{
+    background:#BF4F45;
+    margin:10px auto;
+    width:70%;
+    padding: 5px 10px 5px 10px;
+    color:burlywood;
+}
+.two{
+    text-align: center;
+    margin: auto;
+    background:burlywood;
+    color: #BF4F45;
+    font-weight: bold;
+}
+.center2 {
+    text-align: center;
+    list-style-position: inside;
+    margin-left: auto;
+    margin-right: 40px;
+}
+nav {
+    text-align: center;
+}
+nav a{
+    background:#0378A6;
+    color: white;
+    text-decoration:none;
+    padding:5px;
+    text-align: center;
+    border-radius: 20%;
+}
+nav a:hover {
+    background:#BF4F45;
+}
+footer {
+    background:#0378A6;
+    margin:10px auto;
+    width:45%;
+    padding: 5px 20px 5px 20px;
+    color:#D9D8D2;
+    text-align: center;
+}
+th, td {
+    border: 1px solid black;
+}
+table {
+    text-align: center;
+    margin-left: auto;
+    margin-right:auto;
+    padding: 5px 20px 5px 20px;
+}
+th {
+    text-align: center;
+    background:burlywood;
+    color: #BF4F45;
+}
