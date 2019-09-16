@@ -57,3 +57,13 @@ footer {
     width:40%;
     padding: 5px 20px 5px 20px;
 }
+
+/* You use a class for an identifier multiple times.
+You use the id identifier only once. Only one paragraph or 
+element can have that unique id. You can use the same class 
+name multiple times */
+
+/* when you use the nav bar, you can refer to nav __ to do 
+everything within the nav, or you can just change the nav in general.
+You can also do multiple nav's and give them id's and refer to those to change
+elements inside of it */

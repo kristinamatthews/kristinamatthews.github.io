@@ -1,0 +1,55 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+header{
+    background: lightcoral;
+}
+.twocolumns{
+    background: lightgreen;
+    /*display:flex;*/
+    /*flex-direction:column; --> makes horizontal columns*/
+    /*justify-content; --> will add margins, can put space in between columns*/
+    /* you can add multiple class names to the column "class", you don't need a space
+    this way you can change certain things without having to repeat it*/
+}
+.col1 {
+    background: rosybrown;
+    flex-basis:45%;
+}
+.col2 {
+    background: indianred;
+    flex-basis:45%;
+}
+footer {
+    background: lightseagreen;
+}
+.threecolumns {
+   /* display:flex; */
+}
+.col1o3 {
+    background:orchid;
+    flex:2;
+    order:2;
+}
+.col2o3 {
+    background:peru;
+    flex:1;
+    order:1;
+}
+
+.col3o3 {
+    background:cadetblue;
+    flex:1;
+    order:3;
+}
+.images {
+   /* display:flex; */
+    justify-content: space-between;
+}
+
+@media (min-width:900px) {
+    .twocolumns, .threecolumns, .images {
+        display:flex;
+    }
+}
