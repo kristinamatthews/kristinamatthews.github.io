@@ -1,0 +1,15 @@
+html, body, #outter {
+    height: 100%; 
+    /* this is so you can see the whole page that you're centering in */
+
+}
+#outter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#coffee-calc {
+    background: mediumaquamarine;
+    width: 40%;
+    padding: 20px 10px 10px 30px;
+}
