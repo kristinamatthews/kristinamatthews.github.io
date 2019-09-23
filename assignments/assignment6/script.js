@@ -18,11 +18,11 @@ countNum.innerHTML = `Product Count: ${count}`;
 
 const price = prompt("What is the price of this item?");
 const priceAmount = document.getElementById("price");
-priceAmount.innerHTML = `Product Price: ${price}`;
+priceAmount.innerHTML = `Product Price: $${price}`;
 
 let Tax = 1.07;
 const taxAmount = document.getElementById("tax");
-taxAmount.innerHTML = `Tax: ${Tax}`;
+taxAmount.innerHTML = `Tax: 0.07`;
 
 let totalCost = (parseFloat(count)*parseFloat(price)*Tax);
 const totalP = document.getElementById("total");
