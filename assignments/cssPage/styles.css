@@ -1,0 +1,124 @@
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.search {
+    float:right;
+}
+.smallLinks {
+    width: 50%;
+    padding: 0%;
+    list-style: none;
+}
+/*.first {
+    display: inline-block;
+    text-transform: uppercase;
+    list-style: none;
+    text-decoration: none;
+    font-size: 10px;
+}*/
+.first {
+    text-decoration: none;
+    list-style:none;
+    font-size: 10px;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: right;
+}
+.uofsclogo {
+    text-decoration: none;
+}
+a #firstSC {
+    font-size: 32px;
+    text-decoration: none;
+}
+nav {
+    text-align: left;
+    margin: 20px 10 20px 10px;
+    padding: 10px 5px;
+}
+nav ul {
+    list-style: none;
+    padding: 0px;
+    width: 100%;
+}
+nav a{
+    background: #73000a;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: bold;
+    justify-content: space-between;
+}
+nav a:hover {
+    background: rgb(245, 97, 116);
+}
+input {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+.dormGirls{
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+#living {
+    font-size: 32px;
+    color: #73000a;
+    font-weight: bold;
+    width: 60%;
+}
+h3 {
+    font-size: 22px;
+    color: #73000a;
+}
+#intro {
+    font-size: 24px;
+}
+.row1, .row2, .row3, .row4 {
+    width:60%;
+    padding: 10px 5px;
+}
+footer {
+    background: #73000a;
+    color: white;
+}
+table,th,td {
+    text-align: left;
+    float: left;
+}
+
+
+
+@media (min-width:900px) {
+    .smallLinks, .topLinks {
+        display: inline-block;
+        list-style: none;
+        text-decoration: none;
+    }
+    .first {
+        display: inline-block;
+        list-style: none;
+        text-decoration: none;
+        font-size: 10px;
+    }
+    nav ul, nav li, nav a {
+        padding:5px 5px;
+        display: inline-block;
+        list-style: none;
+        margin: 0 2px;
+        text-align: center;
+        background:#73000a;
+        color: white;
+        text-decoration: none;
+    }
+    .dormGirls {
+        width: 100%;
+        height: auto;
+        vertical-align: middle;
+    }
+}
