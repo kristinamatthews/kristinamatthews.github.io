@@ -1,0 +1,54 @@
+body {
+    background-color: salmon;
+}
+.col1of2 {
+    background: cornflowerblue;
+    padding:10px;
+    flex-basis: 45%;
+    margin: 0px 15px 0px 0px;
+    border-radius: 5%;
+}
+.col2of2 {
+    background: cornflowerblue;
+    padding:10px;
+    flex-basis: 45%;
+    margin: 0px 0px auto 0px;
+    border-radius: 5%;
+}
+h2 {
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+input {
+    padding: 5px;
+    width:150px;
+}
+div {
+    text-align: center;
+}
+button {
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 20%;
+}
+
+
+
+
+
+
+@media (min-width:500px) {
+    .twocolumns {
+        display:flex;
+        justify-content: space-between;
+    }
+}
+
+@media all and (max-width:500px){
+    .twocolumns{
+        flex-direction: column;
+    }
+}
