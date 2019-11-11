@@ -1,0 +1,17 @@
+body {
+    background: blue;
+}
+
+.athlete {
+    background:lightgreen;
+    width:60%;
+    margin: auto;
+    border:5px solid mediumvioletred;
+    padding:20px;
+    border-radius: 10px;
+}
+
+img {
+    height: 200px;
+    width: 50%;
+}
