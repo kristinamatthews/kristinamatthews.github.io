@@ -3,15 +3,17 @@ body {
 }
 
 .athlete {
-    background:lightgreen;
+    background:lightcoral;
     width:60%;
     margin: auto;
-    border:5px solid mediumvioletred;
+    border:5px solid green;
     padding:20px;
     border-radius: 10px;
 }
-
-img {
-    height: 200px;
-    width: 50%;
+.athlete-form {
+    width:40%;
+    background:mediumvioletred;
+    border:3px solid white;
+    padding:10px;
+    margin:10px auto;
 }

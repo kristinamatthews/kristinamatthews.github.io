@@ -9,6 +9,18 @@
         <h1>My Favorite Athletes</h1>
         <div id="content"></div>
 
+        <!-- Show an Athlete -->
+        <div class="athlete-form">
+            <h3>Show An Athlete:</h3>
+            <p>
+                <label for="athlete-id">Athlete Id:</label>
+                <input id="input-athlete-id">
+            </p>
+            <button id="btn-show-athlete">Show Athlete</button>
+            <div id="athlete"></div>
+        </div>
+
+        <!-- Create a new athlete -->
         <div class="athlete-form">
             <h3>Create an Athlete</h3>
             <p>
@@ -32,6 +44,36 @@
                 <input id="athlete-team-name">
             </p>
             <button id="btn-add-athlete">Add Athlete</button>
+        </div>
+
+        <!-- Edit an existing athlete -->
+
+        <div id="edit-athlete-form" class="athlete-form">
+            <h3>Edit an Athlete</h3>
+            <p>
+                Athlete Id:<span id="edit-athlete-id"></span>
+            </p>
+            <p>
+                <label for="athlete-first-name">Athlete First Name:</label>
+                <input id="edit-athlete-first-name">
+            </p>
+            <p>
+                <label for="athlete-last-name">Athlete Last Name:</label>
+                <input id="edit-athlete-last-name">
+            </p>
+            <p>
+                <label for="athlete-sport-name">Athlete's Sport:</label>
+                <input id="edit-athlete-sport-name">
+            </p>
+            <p>
+                <label for="athlete-league-name">Athlete's League:</label>
+                <input id="edit-athlete-league-name">
+            </p>
+            <p>
+                <label for="athlete-team-name">Athlete's Team:</label>
+                <input id="edit-athlete-team-name">
+            </p>
+            <button id="btn-edit-athlete">Edit Athlete</button>
         </div>
     </body>
 </html>
